@@ -1,0 +1,92 @@
+:root {
+    /* primary */
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    
+    /* neutral */
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    font-family: 'Bai Jamjuree', sans-serif;
+    min-height: 100vh;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* ------------------------------------------------------ */
+
+header {
+    display: flex;
+    flex-direction: column;
+    min-width: 32rem;
+    text-align: center;
+}
+header span {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 370px;
+    background-image: url("../images/bg-header-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header img {
+    align-self: center;
+}
+.header--description {
+    position: absolute;
+    top: 32.7rem;
+    align-self: center;
+    min-width: 32rem;
+    margin: 0 3.2rem;
+}
+.header--description h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: var(--dark-grayish-blue);
+}
+.header--description p {
+    margin-top: 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    letter-spacing: 0.01rem;
+    color: var(--grayish-blue);
+}
+.header--buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    margin: 16rem 3.2rem 0;
+}
+.header--buttons button {
+    padding: 1.3rem 5rem;
+    font-family: inherit;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    line-height: 3rem;
+    border: none;
+    border-radius: 2.8rem;
+    color: #fff;
+}
+.header--buttons #iOS-button {
+    background-color: var(--strong-cyan);
+    box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}
+.header--buttons #Mac-button {
+    background-color: var(--light-blue);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}

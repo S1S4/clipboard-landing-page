@@ -98,7 +98,7 @@ main {
     height: auto;
 }
 .tracking-section {
-    margin: 16rem 3.2rem 1rem;
+    margin: 16rem 3.2rem 0;
     text-align: center;
 }
 .tracking-section-description {
@@ -143,29 +143,91 @@ main {
 /* ------------------------------------------------------ */
 
 .access-section {
-    margin-top: 140px;
+    margin: 8rem 3.2rem 0;
     text-align: center;
 }
 .access-section-description {
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
-    margin: 0 3.2rem;
 }
 .access-section-description h2 {
-    color: var(--dark-grayish-blue);
     font-size: 2.8rem;
     font-weight: 600;
+    color: var(--dark-grayish-blue);
 }
 .access-section-description p {
-    color: var(--grayish-blue);
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 2.6rem;
     letter-spacing: 0.012rem;
+    color: var(--grayish-blue);
 }
 .access-section img {
     margin-top: 4.6rem;
 }
 
 /* ------------------------------------------------------ */
+
+.workflow-section {
+    margin: 3rem 3.2rem 0;
+    text-align: center;
+}
+.workflow-section-description {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    margin-bottom: 9rem;
+}
+.workflow-section-description h2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: var(--dark-grayish-blue);
+}
+.workflow-section-description p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.012rem;
+    color: var(--grayish-blue);
+}
+.workflow-section-details {
+    display: flex;
+    flex-direction: column;
+}
+.workflow-section--card h3 {
+    margin-bottom: 1.8rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: var(--dark-grayish-blue);
+}
+.workflow-section--card p {
+    margin-bottom: 5.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.012rem;
+    color: var(--grayish-blue);
+}
+.workflow-section--card .icon-card {
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 4.4rem;
+}
+.workflow-section--card .paper {
+    width: 44px;
+    height: 40px;
+    background-image: url("../images/icon-blacklist.svg");
+}
+.workflow-section--card .text {
+    width: 36px;
+    height: 32px;
+    background-image: url("../images/icon-text.svg");
+}
+.workflow-section--card .eye {
+    width: 50px;
+    height: 32px;
+    background-image: url("../images/icon-preview.svg");
+}

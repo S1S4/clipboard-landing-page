@@ -139,3 +139,33 @@ main {
     letter-spacing: 0.012rem;
     color: var(--grayish-blue);
 }
+
+/* ------------------------------------------------------ */
+
+.access-section {
+    margin-top: 140px;
+    text-align: center;
+}
+.access-section-description {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin: 0 3.2rem;
+}
+.access-section-description h2 {
+    color: var(--dark-grayish-blue);
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+.access-section-description p {
+    color: var(--grayish-blue);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    letter-spacing: 0.012rem;
+}
+.access-section img {
+    margin-top: 4.6rem;
+}
+
+/* ------------------------------------------------------ */

@@ -231,3 +231,18 @@ main {
     height: 32px;
     background-image: url("../images/icon-preview.svg");
 }
+
+/* ------------------------------------------------------ */
+
+.logos-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 57px;
+    margin: 13.1rem 0 17rem;
+}
+.logos-section img {
+    width: fit-content;
+}
+
+/* ------------------------------------------------------ */

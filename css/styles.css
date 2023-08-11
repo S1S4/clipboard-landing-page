@@ -72,7 +72,8 @@ header img {
     gap: 2.4rem;
     margin: 16rem 3.2rem 0;
 }
-.header--buttons button {
+.header--buttons button,
+.downloads--buttons button {
     padding: 1.3rem 5rem;
     font-family: inherit;
     font-weight: 600;
@@ -82,11 +83,11 @@ header img {
     border-radius: 2.8rem;
     color: #fff;
 }
-.header--buttons #iOS-button {
+#iOS-button {
     background-color: var(--strong-cyan);
     box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
 }
-.header--buttons #Mac-button {
+#Mac-button {
     background-color: var(--light-blue);
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
 }
@@ -246,3 +247,34 @@ main {
 }
 
 /* ------------------------------------------------------ */
+
+.downloads-section {
+    margin: 0 3.2rem;
+}
+.downloads-description {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    text-align: center;
+}
+.downloads-description h2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: var(--dark-grayish-blue);
+}
+.downloads-description p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.012rem;
+    color: var(--grayish-blue);
+}
+.downloads--buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    margin-top: 4.6rem;
+}
+
+/* ------------------------------------------------------ */
+

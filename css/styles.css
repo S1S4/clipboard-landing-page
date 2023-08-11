@@ -311,7 +311,7 @@ footer {
     flex-direction: column;
     background-color: rgb(158, 171, 178, 0.12);
 }
-.footer img {
+.footer #logo {
     align-self: center;
     width: 55px;
     height: 55px;
@@ -343,15 +343,8 @@ footer {
     width: 24px;
     height: 24px;
 }
-.footer--social-media .icon-facebook {
-    background-image: url("../images/icon-facebook.svg");
-}
-.footer--social-media .icon-instagram {
-    background-image: url("../images/icon-instagram.svg");
-}
 .footer--social-media .icon-twitter {
     height: 19px;
-    background-image: url("../images/icon-twitter.svg");
     align-self: center;
 }
 .footer--social-media .icon:hover {

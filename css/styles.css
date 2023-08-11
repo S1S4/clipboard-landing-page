@@ -320,6 +320,7 @@ footer {
 .footer ul {
     display: flex;
     flex-direction: column;
+    align-self: center;
     gap: 2rem;
     list-style: none;
     text-align: center;

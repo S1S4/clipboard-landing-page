@@ -13,12 +13,12 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ## Overview
 
-![]()
+![](https://i.imgur.com/H85IG6E.png)
 
 ### Links
 
 - Solution URL: [Solution Page]()
-- Live Site: [Live Site at Github Pages]()
+- Live Site: [Live Site at Github Pages](https://s1s4.github.io/clipboard-landing-page/)
 
 ## My process
 

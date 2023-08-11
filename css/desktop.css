@@ -1,0 +1,64 @@
+header span {
+    background-image: url("../images/bh-header-desktop.svg");
+}
+
+/* ------------------------------------------------------ */
+
+.tracking-section {
+    padding: 16rem 0 0 0;
+}
+.tracking-section-description {
+    padding-left: 3.2rem;
+}
+.tracking-section-details {
+    flex-direction: row;
+    padding-right: 11rem;
+    text-align: left;
+}
+.tracking-section-details--cards {
+    max-width: 350px;
+    align-self: center;
+}
+.tracking-section-details img {
+    max-width: 752px;
+    height: 572px;
+}
+
+/* ------------------------------------------------------ */
+
+.access-section img {
+    width: 83%;
+}
+
+/* ------------------------------------------------------ */
+
+.workflow-section-details {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* ------------------------------------------------------ */
+
+.logos-section {
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* ------------------------------------------------------ */
+.footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3.9rem 16.5rem;
+}
+.footer img {
+    padding: 0;
+}
+.footer ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 35rem;
+}
+.footer--social-media {
+    padding: 0;
+}

@@ -80,6 +80,11 @@ header img {
     border-radius: 2.8rem;
     color: #fff;
 }
+.header--buttons button:hover,
+.downloads--buttons button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
 #iOS-button {
     background-color: var(--strong-cyan);
     box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
@@ -323,12 +328,33 @@ footer {
     letter-spacing: 0.0135rem;
     color: var(--dark-grayish-blue);
 }
+.footer li:hover {
+    color: var(--strong-cyan);
+    cursor: pointer;
+}
 .footer--social-media {
     display: flex;
     gap: 4rem;
     align-self: center;
     padding: 4.8rem 11.1rem 5.1rem;
 }
-.footer--social-media #twitter {
+
+.footer--social-media .icon {
+    width: 24px;
+    height: 24px;
+}
+.footer--social-media .icon-facebook {
+    background-image: url("../images/icon-facebook.svg");
+}
+.footer--social-media .icon-instagram {
+    background-image: url("../images/icon-instagram.svg");
+}
+.footer--social-media .icon-twitter {
+    height: 19px;
+    background-image: url("../images/icon-twitter.svg");
     align-self: center;
+}
+.footer--social-media .icon:hover {
+    cursor: pointer;
+    filter: invert(65%) sepia(11%) saturate(2659%) hue-rotate(121deg) brightness(94%) contrast(82%);
 }

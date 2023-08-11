@@ -1,0 +1,10 @@
+.tracking-section-details {
+    gap: 0;
+    justify-content: space-around;
+}
+
+/* ------------------------------------------------------ */
+
+.access-section img {
+    width: 60%;
+}

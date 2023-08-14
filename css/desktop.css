@@ -1,5 +1,5 @@
 header span {
-    background-image: url("../images/bh-header-desktop.svg");
+    background-image: url("../images/bg-header-desktop.png");
 }
 
 /* ------------------------------------------------------ */
@@ -19,15 +19,19 @@ header span {
     max-width: 350px;
     align-self: center;
 }
-.tracking-section-details img {
-    max-width: 752px;
+.tracking-section-details .image-computer {
+    width: 752px;
     height: 572px;
+    background-image: url("../images/image-computer-desktop.png");
+    background-repeat: no-repeat;
 }
 
 /* ------------------------------------------------------ */
 
-.access-section img {
-    width: 83%;
+.access-section .image-devices {
+    width: 880px;
+    height: 500px;
+    background-image: url("../images/image-devices-desktop.png");
 }
 
 /* ------------------------------------------------------ */

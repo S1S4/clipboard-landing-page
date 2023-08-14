@@ -38,11 +38,12 @@ header span {
     flex-direction: column;
     justify-content: center;
     height: 37rem;
-    background-image: url("../images/bg-header-mobile.svg");
+    background-image: url("../images/bg-header-mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 header img {
+    max-width: 125px;
     align-self: center;
 }
 .header-description {
@@ -131,8 +132,13 @@ main {
     gap: 5.6rem;
     margin-top: 6.5rem;
 }
-.tracking-section-details img {
+.tracking-section-details .image-computer {
+    display: block;
+    width: 312px;
+    height: 240px;
     align-self: center;
+    background-image: url("../images/image-computer-mobile.png");
+    background-repeat: no-repeat;
 }
 .tracking-section--card h3 {
     margin-bottom: 1rem;
@@ -177,9 +183,13 @@ main {
     letter-spacing: 0.012rem;
     color: var(--grayish-blue);
 }
-.access-section img {
+.access-section .image-devices {
+    width: 370px;
+    height: 200px;
     align-self: center;
     margin-top: 4.6rem;
+    background-image: url("../images/image-devices-mobile.png");
+    background-repeat: no-repeat;
 }
 
 /* ------------------------------------------------------ */
@@ -263,7 +273,8 @@ main {
     padding: 13.1rem 0 17rem;
 }
 .logos-section img {
-    width: fit-content;
+    width: 165px;
+    height: 50px;
 }
 
 /* ------------------------------------------------------ */

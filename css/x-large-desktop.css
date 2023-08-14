@@ -1,10 +1,13 @@
 .tracking-section-details {
-    gap: 0;
-    justify-content: space-around;
+    display: grid;
+    grid-template-areas: 
+    "image cards"
+    ;
 }
-
+.image-computer {
+    grid-area: image;
+}
+.tracking-section--card {
+    grid-area: cards;
+}
 /* ------------------------------------------------------ */
-
-.access-section img {
-    width: 60%;
-}

@@ -1,7 +1,12 @@
 header span {
     background-image: url("../images/bg-header-desktop.png");
 }
-
+.header-description h1 {
+    font-size: 4.6rem;
+}
+.header-description p {
+    font-size: 2rem;
+}
 /* ------------------------------------------------------ */
 
 .tracking-section {
@@ -9,6 +14,12 @@ header span {
 }
 .tracking-section-description {
     padding-left: 3.2rem;
+}
+.tracking-section-description h2 {
+    font-size: 3.6rem;
+}
+.tracking-section-description p {
+    font-size: 1.8rem;
 }
 .tracking-section-details {
     flex-direction: row;
@@ -27,10 +38,16 @@ header span {
 }
 
 /* ------------------------------------------------------ */
-
+.access-section-description h2 {
+    font-size: 3.6rem;
+}
+.access-section-description p {
+    font-size: 1.8rem;
+}
 .access-section .image-devices {
     width: 880px;
     height: 500px;
+    margin: 11.1rem 0 16rem;
     background-image: url("../images/image-devices-desktop.png");
 }
 
@@ -39,6 +56,12 @@ header span {
 .workflow-section-details {
     flex-direction: row;
     justify-content: space-evenly;
+}
+.workflow-section-description h2 {
+    font-size: 3.6rem;
+}
+.workflow-section-description p {
+    font-size: 1.8rem;
 }
 
 /* ------------------------------------------------------ */
@@ -49,6 +72,16 @@ header span {
 }
 
 /* ------------------------------------------------------ */
+
+.downloads-description h2 {
+    font-size: 3.6rem;
+}
+.downloads-description p {
+    font-size: 1.8rem;
+}
+
+/* ------------------------------------------------------ */
+
 .footer {
     flex-direction: row;
     justify-content: space-between;

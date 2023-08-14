@@ -85,11 +85,11 @@ header img {
     cursor: pointer;
     opacity: 0.5;
 }
-#iOS-button {
+.iOS-button {
     background-color: var(--strong-cyan);
     box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
 }
-#Mac-button {
+.Mac-button {
     background-color: var(--light-blue);
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
 }

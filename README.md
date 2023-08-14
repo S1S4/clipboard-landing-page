@@ -13,7 +13,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ## Overview
 
-![](https://i.imgur.com/H85IG6E.png)
+![](https://i.imgur.com/kEqi6kO.png)
 
 ### Links
 
